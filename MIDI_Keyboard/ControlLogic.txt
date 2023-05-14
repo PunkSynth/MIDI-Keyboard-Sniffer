@@ -1,0 +1,12 @@
+Control Logic for the MIDI_KeyboardDlg
+1.) InitDialog
+Enable:
+- mCtrlSelectText
+- mCtrlComPort
+- mCtrlUpdate
+Disable:
+- mCtrlConnect
+- mCtrlKillSwitch
+- mCtrlMidiMsg
+2.) If there are no comports, add USB conncetions physically
+and update the control with the Update Port button
